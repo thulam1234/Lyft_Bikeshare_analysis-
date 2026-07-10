@@ -12,7 +12,7 @@ SELECT
     member_casual,
     COUNT(*) as missing_end_station_count
 FROM combined_baywheels cb 
-WHERE cb.end_station_id IS NULL 
+WHERE cb.end_station_id IS NULL  
    OR cb.end_station_id = '' -- This checks for blank text spaces
 GROUP BY rideable_type, member_casual;
 --- electric bike missing end point is much higher but they have dockless parking feature, which allow users to return the bike anywhere.
