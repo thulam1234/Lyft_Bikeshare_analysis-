@@ -3,7 +3,8 @@
 ### By : Lily (Thu) Lam
 
 ## Business Case & Objective 
-To identify 
+Analyze Lyft BayWheel data from 2023 to 2026 to diagnose demands throughout the year from different user types, supply imbalances quantify system growth and build short term forecast, which will help operational recommendations for bike rebalancing, and station capacity planning
+
 ## Executive Summary & Key Insights 
 ## Data Source & Data Dictionary 
 Each trip is anonymized and includes:
