@@ -3,6 +3,7 @@
 ### By : Lily (Thu) Lam
 
 ## Business Case & Objective 
+To identify 
 ## Executive Summary & Key Insights 
 ## Data Source & Data Dictionary 
 Each trip is anonymized and includes:
@@ -29,8 +30,11 @@ End Station Latitude:Latitude of the end  station
 
 End Station Longitude: Longtitude of the end station 
 
+Rideable Type: The type of ride users use for their trip (electric bike, classic bike and electric scooter )
+
 Ride ID: A unique identifier for each ride recorded in this dataset. 
 
 User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual):  This indicates whether the user is a member or a casual customer.  
+
 ## Analytical Workflow 
 ## Repository Structure 
