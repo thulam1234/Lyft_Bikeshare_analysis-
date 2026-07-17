@@ -34,9 +34,9 @@ Tailor system services and infrastructure to meet the distinct habits of casual 
 
     Q3.2: What is the variance in average trip duration and choice of vehicle type (classic bike, electric bike, scooter) between the two user segments?
 
-Goal 4: Station Accumulation & Capacity 
+Goal 4: Station Accumulation & Capacity Mapping
 
-MappingIdentify popular "sink" stations where bikes pile up over time, risking overcapacity.
+Identify popular "sink" stations where bikes pile up over time, risking overcapacity.
 
     Q4.1: What are the top 10 most popular end stations where trips consistently terminate?
 
