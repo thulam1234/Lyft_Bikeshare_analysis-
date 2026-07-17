@@ -3,27 +3,47 @@
 ### By : Lily (Thu) Lam
 
 ## Business Case & Objective 
-Analyze Lyft BayWheel data from 2023 to 2026 to diagnose demands throughout the year from different user types, supply imbalances quantify system growth, and build short term forecast, which will help operational recommendations for bike rebalancing, and station capacity planning. 
+The goal of this project is to analyze Lyft Bay Wheels data from 2023 to 2026 to diagnose seasonal demand trends across different user types, evaluate supply imbalances, and quantify overall system growth. By building a short-term demand forecast, this analysis will deliver actionable, data-driven operational recommendations for fleet rebalancing and station capacity planning.
 
 ## Goals and Questions 
-1. Identify how ridership varies throughout the years and by station.
-2. Determine the frequency and severity of station-level imbalances. 
-3. Measure demand based on member type. 
-4. Analyze the docking pattern to identify popular docking stations where bikes accumulate over time. 
-5. Forecast system-wide total rides using time series forecasting to predict demand for the next 90 days.
-## Questions
-Goal 1: 
-1. What are the top 10 most popular start stations?
-2.  What time is the highest demand time throughout the week?
-3.  What is the demand variation between 2023, 2024, 2025, and 2026?
-4.  What is the demand variation per month?
-Goal 2: 
-Goal 3: 
-1. What type of member usage throughout the week?
-Goal 4:
-1. What is the most popular end station?
+Goal 1: Fleet Distribution & Ridership Trends
+Optimize vehicle availability by mapping out geographic and temporal demand across the network.
+
+    Q1.1: What are the top 10 most popular start stations across the Bay Wheels network?
+  
+    Q1.2: What are the peak demand hours throughout the week, and how do they shift between weekdays and weekends?
+
+    Q1.3: How has annual ridership volume grown or shifted between 2023, 2024, 2025, and 2026?
+
+    Q1.4: What does the month-over-month ridership curve look like, and when do the sharpest seasonal drops occur?
+
+Goal 2: Operational Downtime & Imbalance MitigationMinimize critical system bottlenecks by identifying when and where stations run out of bikes or open docks.
+
+    Q2.1: Which specific stations experience the highest frequency of net-negative trip imbalances (more departures than arrivals) during morning commute hours?
+
+    Q2.2: What is the average duration a high-traffic station remains in a critical imbalance state before naturally resetting or being manually rebalanced?
+
+Goal 3: Targeted User Experience & SegmentationTailor system services and infrastructure to meet the distinct habits of casual riders versus subscribers.
+
+    Q3.1: How does the weekly usage distribution (ride counts and peak hours) differ between Subscribers (Members) and Customers (Casual riders)?
+
+    Q3.2: What is the variance in average trip duration and choice of vehicle type (classic bike, electric bike, scooter) between the two user segments?
+
+Goal 4: Station Accumulation & Capacity MappingIdentify popular "sink" stations where bikes pile up over time, risking overcapacity.
+
+    Q4.1: What are the top 10 most popular end stations where trips consistently terminate?
+
+    Q4.2: Which stations show a multi-year trend of net-positive accumulation, signaling a need for physical dock expansion?
+
+Goal 5: Proactive Resource & Labor PlanningShift operations from reactive troubleshooting to proactive scheduling using predictive analytics.
+
+    Q5.1: What is the system-wide baseline ridership forecast for the next 90 days?
+
+    Q5.2: What are the expected upper and lower confidence intervals for daily ridership, factoring in seasonal trends and holidays?
+out the week?
+
 ## Executive Summary
-##Key Insights 
+## Key Insights 
 ## Data Source & Data Dictionary 
 Each trip is anonymized and includes:
 
