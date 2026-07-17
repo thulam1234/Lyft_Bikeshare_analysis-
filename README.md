@@ -7,6 +7,7 @@ The goal of this project is to analyze Lyft Bay Wheels data from 2023 to 2026 to
 
 ## Goals and Questions 
 Goal 1: Fleet Distribution & Ridership Trends
+
 Optimize vehicle availability by mapping out geographic and temporal demand across the network.
 
     Q1.1: What are the top 10 most popular start stations across the Bay Wheels network?
@@ -17,30 +18,38 @@ Optimize vehicle availability by mapping out geographic and temporal demand acro
 
     Q1.4: What does the month-over-month ridership curve look like, and when do the sharpest seasonal drops occur?
 
-Goal 2: Operational Downtime & Imbalance MitigationMinimize critical system bottlenecks by identifying when and where stations run out of bikes or open docks.
+Goal 2: Operational Downtime & Imbalance 
+
+MitigationMinimize critical system bottlenecks by identifying when and where stations run out of bikes or open docks.
 
     Q2.1: Which specific stations experience the highest frequency of net-negative trip imbalances (more departures than arrivals) during morning commute hours?
 
     Q2.2: What is the average duration a high-traffic station remains in a critical imbalance state before naturally resetting or being manually rebalanced?
 
-Goal 3: Targeted User Experience & SegmentationTailor system services and infrastructure to meet the distinct habits of casual riders versus subscribers.
+Goal 3: Targeted User Experience & Segmentation
+
+Tailor system services and infrastructure to meet the distinct habits of casual riders versus subscribers.
 
     Q3.1: How does the weekly usage distribution (ride counts and peak hours) differ between Subscribers (Members) and Customers (Casual riders)?
 
     Q3.2: What is the variance in average trip duration and choice of vehicle type (classic bike, electric bike, scooter) between the two user segments?
 
-Goal 4: Station Accumulation & Capacity MappingIdentify popular "sink" stations where bikes pile up over time, risking overcapacity.
+Goal 4: Station Accumulation & Capacity 
+
+MappingIdentify popular "sink" stations where bikes pile up over time, risking overcapacity.
 
     Q4.1: What are the top 10 most popular end stations where trips consistently terminate?
 
     Q4.2: Which stations show a multi-year trend of net-positive accumulation, signaling a need for physical dock expansion?
 
-Goal 5: Proactive Resource & Labor PlanningShift operations from reactive troubleshooting to proactive scheduling using predictive analytics.
+Goal 5: Proactive Resource & Labor Planning
+
+Shift operations from reactive troubleshooting to proactive scheduling using predictive analytics.
 
     Q5.1: What is the system-wide baseline ridership forecast for the next 90 days?
 
     Q5.2: What are the expected upper and lower confidence intervals for daily ridership, factoring in seasonal trends and holidays?
-out the week?
+
 
 ## Executive Summary
 ## Key Insights 
