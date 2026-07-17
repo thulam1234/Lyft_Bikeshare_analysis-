@@ -12,6 +12,7 @@ Analyze Lyft BayWheel data from 2023 to 2026 to diagnose demands throughout the 
 4. Analyze the docking pattern to identify popular docking stations where bikes accumulate over time. 
 5. Forecast system-wide total rides using time series forecasting to predict demand for the next 90 days.
 
+## Questions
 ## Executive Summary
 ##Key Insights 
 ## Data Source & Data Dictionary 
