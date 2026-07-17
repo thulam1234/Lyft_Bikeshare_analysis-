@@ -18,9 +18,9 @@ Optimize vehicle availability by mapping out geographic and temporal demand acro
 
     Q1.4: What does the month-over-month ridership curve look like, and when do the sharpest seasonal drops occur?
 
-Goal 2: Operational Downtime & Imbalance 
+Goal 2: Operational Downtime & Imbalance Mitigation
 
-MitigationMinimize critical system bottlenecks by identifying when and where stations run out of bikes or open docks.
+Minimize critical system bottlenecks by identifying when and where stations run out of bikes or open docks.
 
     Q2.1: Which specific stations experience the highest frequency of net-negative trip imbalances (more departures than arrivals) during morning commute hours?
 
